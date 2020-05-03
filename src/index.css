@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.ant-table-header {
+  color: white;
+}
+
+.ant-table-body{
+  color: white;
+  overflow:scroll !important;
+  height: 300px !important;
+  
+}
+
+.ant-table-body, .ant-table-row{
+  height: 5em;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ant-table-row > td {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+tr:hover {
+  background-color: #555;
+}
+
+td:hover{
+  background-color: #555;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background-color: #222831 !important;  
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 5px;
+  background-color: #222831 !important;  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222831;  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 3px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.ant-table-pagination.ant-pagination {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.ant-table-pagination.ant-pagination > li{
+  border: 1px solid #29a19c;
+  margin: 5px;
+  padding: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ant-pagination-disabled{
+  cursor: not-allowed !important;
+}
